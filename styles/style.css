@@ -1,5 +1,5 @@
 
-.site__title {
+.page__title {
     z-index: 1;
     max-width: 740px;
     margin: 0 auto;
@@ -11,12 +11,12 @@
     text-transform: uppercase;
 }
 
-.site__title:hover {
+.page__title:hover {
     color: #4C4C4C;
     cursor: default;
 }
 
-.site__video {
+.page__video {
     position: absolute;
     top: 0;
     left: 0;
@@ -27,12 +27,12 @@
     object-position: center;
 }
 
-.site__title::after {
+.page__title::after {
     content: '*';
     position: relative;
 }
 
-.site__title:hover::before {
+.page__title:hover::before {
     content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
     position: absolute;
     top: 180px;

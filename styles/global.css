@@ -4,10 +4,12 @@
 *::after {
     box-sizing: border-box;
 }
+
 h1,h2,h3,h4,h5 {
     margin: 0;
     padding: 0;
 }
+
 html {
     height: 100%;
 }
@@ -21,6 +23,7 @@ body {
     height: inherit;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
+    margin: 0;
 }
 
 body::before {
